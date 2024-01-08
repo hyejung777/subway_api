@@ -16,22 +16,22 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: '서브웨이'),
+      home: const MyHome(title: '서브웨이'),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+class MyHome extends StatefulWidget {
+  const MyHome({super.key, required this.title});
 
 
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<MyHome> createState() => _MyHomeState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomeState extends State<MyHome> {
   int _counter = 0;
 
   void _incrementCounter() {
