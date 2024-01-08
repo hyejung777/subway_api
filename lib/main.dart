@@ -17,21 +17,22 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'subway api'),
+main
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+class MyHome extends StatefulWidget {
+  const MyHome({super.key, required this.title});
 
 
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<MyHome> createState() => _MyHomeState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomeState extends State<MyHome> {
   int _counter = 0;
 
   void _incrementCounter() {
