@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHome(title: '서브웨이'),
+      home: const MyHomePage(title: 'subway api'),
+main
     );
   }
 }
