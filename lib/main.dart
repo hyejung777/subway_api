@@ -11,27 +11,29 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
+
       home: const MyHome(title: '왜 연결이 안되는거야'),
+    
     );
   }
 }
 
-class MyHome extends StatefulWidget {
-  const MyHome({super.key, required this.title});
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
 
 
   final String title;
 
   @override
-  State<MyHome> createState() => _MyHomeState();
+  State<MyHomePage> createState() => _MyHomeState();
 }
 
-class _MyHomeState extends State<MyHome> {
+class _MyHomeState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
