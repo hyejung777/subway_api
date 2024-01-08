@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      home: const MyHomePage(title: '왜 안되는거야'),
+      home: const MyHomePage(title: '왜 안되는거야 조상우 잘될거야에요'),
 
     );
   }
