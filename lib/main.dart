@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'subway'),
+
+      home: const MyHome(title: '왜 연결이 안되는거야'),
+    
     );
   }
 }
