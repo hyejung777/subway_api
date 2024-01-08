@@ -11,15 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter',
+      title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-
-
-      home: const MyHomePage(title: '왜 안되는거야 조상우 잘될거야에 잘 되라 좀'),
-
+      home: const MyHomePage(title: ''
+          '!!'),
     );
   }
 }
@@ -31,10 +29,10 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomeState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
-class _MyHomeState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
